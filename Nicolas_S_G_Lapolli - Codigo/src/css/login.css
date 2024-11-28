@@ -1,0 +1,173 @@
+
+.signBox {
+    background: #f4f4f9;
+    height: 100vh;           
+    margin: 0;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+}
+
+
+.caixa {
+    width: 30vw;
+    height: 50vh;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #333;
+}
+
+
+.botaoLoginC {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.botaoLoginC:hover {
+    background-color: #0056b3; 
+}
+
+
+.cadastre {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.signinEntrar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px; 
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff; 
+}
+
+
+.signinEntrar:hover {
+    background-color: #0056b3; 
+}
+
+
+p {
+    font-size: 10px;
+    color: black;
+}
+
+
+.signinCadastro {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+.signinEsquecer {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.signLogo {
+    display: flex;
+}
+
+
+.signLogoBox {
+    padding-right: 50px;
+    padding-top: 115px;
+    padding-bottom: 138px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: white;
+}
+
+
+.fundo {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+.gerenciamento-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarefas {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.tarefa {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-right: 10px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+select {
+    margin-left: 10px;
+}
